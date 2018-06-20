@@ -1,0 +1,14 @@
+{
+  "name": "multi-get-file-download",
+  "version": "1.0.0",
+  "description": "This is a simplified version of a “download booster”, which speeds up downloads by requesting files in multiple pieces simultaneously (saturating the network), then reassembling the pieces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Dykema",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
